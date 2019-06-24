@@ -1,4 +1,4 @@
-package guru.springframework.sfgpetclinic;
+package com.learnreactivespring;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,10 +7,10 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class SfgPetClinicApplicationTests {
+public class LearnReactivespringApplicationTests {
 
-    @Test
-    public void contextLoads() {
-    }
+	@Test
+	public void contextLoads() {
+	}
 
 }
