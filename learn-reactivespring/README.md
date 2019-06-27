@@ -1,6 +1,10 @@
 # Objective:
 
-The objective of this project is to create an Android and iOS app using React Native. In this, you will see a splash screen and login page, as shown in the below screenshots.
+The objective of this project is to understand the usage of various Reactive Operators that can be used with Flux and Mono explained via Unit test cases.
+
+# Pre-requsites:
+Should be aware of Reactive programming concepts and Spring Reactor, which is explained in my personal blog.
+https://shyamtechno.blogspot.com/2019/06/basics-of-reactive-programming-project.html
 
 # Instructions for the setup:
 
