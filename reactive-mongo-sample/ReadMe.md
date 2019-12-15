@@ -41,7 +41,7 @@ http://localhost:8080/rest/employee/6e69194f-072b-4399-8381-fa85a9468274
 ```
 http://localhost:8080/rest/employee/6e69194f-072b-4399-8381-fa85a9468274/events
 ``` 
-![third](images/3_output_one_emp_events)
+![third](images/3_output_one_emp_events.png)
 
 # References:
 * If you want to know more about the Reactive programming concepts and Spring Reactor, you can refer them in my blog here.
