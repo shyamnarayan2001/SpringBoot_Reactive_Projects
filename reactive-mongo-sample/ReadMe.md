@@ -15,7 +15,11 @@ The following softwares are to be installed on your machine for this code to wor
 
 # Instructions for the setup:
 
-* Git clone the project - https://github.com/shyamnarayan2001/SpringBoot_Reactive_Projects.git
+* Git clone the project
+```
+git clone https://github.com/shyamnarayan2001/SpringBoot_Reactive_Projects.git
+
+```
 * Once the clone is complete, you will see the sub-folder /reactive-mongo-sample under the parent folder /SpringBoot_Reactive_Projects
 * Open Command prompt and go to the root directory path (/reactive-mongo-sample) and run the following command, which will pull the MongoDB docker image and run the same
 ```

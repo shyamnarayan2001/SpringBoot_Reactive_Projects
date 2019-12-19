@@ -13,7 +13,11 @@ The following softwares are to be installed on your machine for this code to wor
 
 # Instructions for the setup:
 
-* Git clone the project - https://github.com/shyamnarayan2001/SpringBoot_Reactive_Projects.git
+* Git clone the project
+```
+git clone https://github.com/shyamnarayan2001/SpringBoot_Reactive_Projects.git
+
+```
 * Once the clone is complete, you will see the sub-folder /spring-boot-reactive-mongo-twitter under the parent folder /SpringBoot_Reactive_Projects
 * Now open Windows Command prompt OR Bash and go to the sub-directory path (SpringBoot_Reactive_Projects/spring-boot-reactive-mongo-twitter) and run the following command, which will pull the MongoDB docker image and run the same
 ```
