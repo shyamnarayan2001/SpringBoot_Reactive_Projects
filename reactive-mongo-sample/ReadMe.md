@@ -2,14 +2,21 @@
 
 The objective of this project is to build reactive API's with Spring WebFlux and use Reactive MongoDB library.
 
+#Blog Tutorial:
+
+Read the blog tutorial: https://shyamtechno.blogspot.com/2019/12/spring-webflux-with-mongodb.html
+
+
 # Pre-requsites:
+
 The following softwares are to be installed on your machine for this code to work:
 * JDK 11 or Open JDK 11
-* Maven
+* Maven 3 or above
 
 # Instructions for the setup:
 
-* Git clone the project
+* Git clone the project - https://github.com/shyamnarayan2001/SpringBoot_Reactive_Projects.git
+* Once the clone is complete, you will see the sub-folder /reactive-mongo-sample under the parent folder /SpringBoot_Reactive_Projects
 * Open Command prompt and go to the root directory path (/reactive-mongo-sample) and run the following command, which will pull the MongoDB docker image and run the same
 ```
 docker-compose up
@@ -27,6 +34,9 @@ Employee(id=6e69194f-072b-4399-8381-fa85a9468274, name=Raghu, salary=25000)
 Employee(id=91e34aa0-4801-468e-8e9f-b62b5ac18576, name=Praveen, salary=30000)
 Employee(id=66a9a625-77fd-4c71-b981-19b3a0f29a6a, name=Shyam, salary=35000)
 ```
+
+# Exploring the Rest APIs:
+
 * Now open the Browser (or any rest client like Postman) and invoke the following URL which will fetch all the 4 employees (as shown in the screen shot below) that were inserted during Server startup:
 ```
 http://localhost:8080/rest/employee/all
@@ -41,7 +51,7 @@ http://localhost:8080/rest/employee/6e69194f-072b-4399-8381-fa85a9468274
 ```
 http://localhost:8080/rest/employee/6e69194f-072b-4399-8381-fa85a9468274/events
 ``` 
-![third](images/3_output_one_emp_events.png)
+![third](images/3_output_one_emp_events)
 
 # References:
 * If you want to know more about the Reactive programming concepts and Spring Reactor, you can refer them in my blog here.
